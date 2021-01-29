@@ -6,20 +6,32 @@
 	<artifactId>SixthProjectBank</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<dependencies>
-		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-			<version>4.13.1</version>
-			<scope>test</scope>
-		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.mockito/mockito-all -->
-		<dependency>
-			<groupId>org.mockito</groupId>
-			<artifactId>mockito-all</artifactId>
-			<version>1.10.19</version>
-			<scope>test</scope>
-		</dependency>
-	</dependencies>
+<dependency>
+<groupId>org.junit.jupiter</groupId>
+<artifactId>junit-jupiter-engine</artifactId>
+<version>5.4.0</version>
+</dependency>
+
+ 
+
+ 
+
+ 
+
+ <dependency>
+<groupId>org.junit.jupiter</groupId>
+<artifactId>junit-jupiter-api</artifactId>
+<version>5.4.0</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.mockito/mockito-junit-jupiter -->
+<dependency>
+    <groupId>org.mockito</groupId>
+    <artifactId>mockito-junit-jupiter</artifactId>
+    <version>3.6.0</version>
+    <scope>test</scope>
+</dependency>
+</dependencies>
+ 
 	<build>
 		<sourceDirectory>src</sourceDirectory>
 		<plugins>
